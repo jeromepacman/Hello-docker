@@ -16,5 +16,3 @@ $sql = "INSERT INTO user (user_name, user_last_name, email, password, gender) VA
 $pdo->exec($sql);
 
 ?>
-
-

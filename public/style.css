@@ -142,9 +142,9 @@ span{
 }
 
 footer{
+    
     display: flex;
     justify-content: space-evenly; 
-    
 }
 
 p{
@@ -164,6 +164,22 @@ th,td  {
     border: #333 solid;
 }
 
+input{
+    outline: none;
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border: 1px solid #333
+}
 
 @media (max-width: 1200px){
     h1{font-size:29px;}
